@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Terminal</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/posts/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/blog/</guid>
+      <description>Test 1 blog 67-11-28 17:05 test
+heyyyyyyyyyyyyy</description>
+      <content>&lt;h1 id=&#34;test-1-blog&#34;&gt;Test 1 blog&lt;/h1&gt;
+&lt;p&gt;67-11-28 17:05 test&lt;/p&gt;
+&lt;p&gt;heyyyyyyyyyyyyy&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
