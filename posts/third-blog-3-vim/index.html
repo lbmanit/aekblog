@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title> :: Terminal</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ทดสอบภาษาไทย ๐67-12-03 08:48
+vim vab - selects content within parenthesis () along with it vib - selects only the content within parenthesis vaB - for {} vib - for {} % will help to jump between matching brackets, tags for that matter anything D - deletes from cursor position to the end of the line Y - copys till the end of the line xp - really helpful to swaps letter like , bnigo &amp;ndash;&amp;gt; bingo gj - normally vim skips the line if its wrapped." />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="//localhost:1313/posts/third-blog-3-vim/" />
+
+
+  
+
+
+
+
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/fonts.min.4881f0c525f3ce2a1864fb6e96676396cebe1e6fcef1933e8e1dde7041004fb5.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/main.min.fe8dc560fccb53a458b0db19ccb7b265764ac46b68596b7e099c6793054dd457.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/terminal.min.dd0bf9c7cacb24c1b0184f52f1869b274e06689557468cc7030ccf632328eb97.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="//localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="">
+<meta property="og:description" content="ทดสอบภาษาไทย ๐67-12-03 08:48
+vim vab - selects content within parenthesis () along with it vib - selects only the content within parenthesis vaB - for {} vib - for {} % will help to jump between matching brackets, tags for that matter anything D - deletes from cursor position to the end of the line Y - copys till the end of the line xp - really helpful to swaps letter like , bnigo &amp;ndash;&amp;gt; bingo gj - normally vim skips the line if its wrapped." />
+<meta property="og:url" content="//localhost:1313/posts/third-blog-3-vim/" />
+<meta property="og:site_name" content="Terminal" />
+
+  <meta property="og:image" content="//localhost:1313/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Terminal
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="//localhost:1313/posts/third-blog-3-vim/"></a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>ทดสอบภาษาไทย
+๐67-12-03 08:48</p>
+<h1 id="vim">vim<a href="#vim" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>vab - selects content within parenthesis () along with it
+vib - selects only the content within parenthesis
+vaB - for {}
+vib - for {}
+% will help to jump between matching brackets, tags for that matter anything
+D - deletes from cursor position to the end of the line
+Y - copys till the end of the line
+xp - really helpful to swaps letter like , bnigo &ndash;&gt; bingo
+gj - normally vim skips the line if its wrapped. gj helps to go down for that
+gv - selects the previously selected part in visual mode.
+gf - jumps to the file when on the file path.</p>
+<p>For Web developers
+cit will jump into the tag.
+vit will juno into the tag in visual mode</p>
+<hr>
+<p>in vim there is actually a lot of things you can do</p>
+<p>diw - delete inside word (delete a word)
+daw - delete around word(deletes a word including the whitespace)
+you can also use &lsquo;W&rsquo; it will also do the same but it will consider a word as a collection of characters surrounded by whitespace
+di{ - delete the content inside {}
+di( - delete the content inside ()
+da{ - delete inside {} including the {}
+like this there are more (di&quot;, di&rsquo;..etc)
+instead of i (inside) or a (around) you can also use s ( surrounding )
+it will delete the surrounding characters you are mentioning
+most of these is useful for programmers</p>
+<p>instead of d you can use c ( c stands for change )
+it will go to insert mode after the operation is done, but d will stay in normal mode</p>
+<p>use y instead of d and c, then you are doing yanking (copy) all the other are same
+also you can use v (it is for visual mode - for selecting text)</p>
+<p>for line search you can use f and F, it will find a purticular character in a line and then you can use ; and , to move forward and backword through that search character if there is more, f is for searching after and F is for searching behind
+also there is t and T - f stands for find, and t stands for till it will also find but wont go to that character, instead a character behind the actuat character you are mentioning, it will make sense when you do operations like delete, for example you can do dta ( it will delete the characters from where you are till the character &lsquo;a&rsquo; or delete till character &lsquo;a&rsquo;) if you use f then the character a will also be deleted.</p>
+<p>instead of line you can search in entire document using /searchword and ?searchword (/ is for searching forward and ? is for backword)
+then you can use n to move throught that search forward and N for backword
+next time if you want to search the same keyword or searchword just press / and enter</p>
+<p>for the basic movement you can use j (down), k (up), l (right), h (left), all the keys are available in home row</p>
+<p>then moving faster using
+w - word -&gt; word -&gt; word
+e - end of each word
+b - move word backword or beginning</p>
+<p>you can also use numbers, it can be considers as a multiplication,
+if you do 2j it will jumb two words down (nj , where n is a number)
+this is not only possible with j k l h , but also with almost every command i have told earlier
+for example i need to delete two  word then i can do d2w..etc</p>
+<p>there is also combination of commands like dd, yy, cc&hellip;etc</p>
+<p>dd will delete a line
+yy will yank(copy) a line
+cc will delete a line then go to insert mode ( while d stay in normal mode)
+this can also be combined with number like 2dd ( delete two line or d2d&hellip;etc)</p>
+<p>for doing number combined operations it is better to do set the numbering to relative rather than normal numbering,
+don&rsquo;t get what i said, right? just look at the video, he is using relative numbering rather that continueous,
+for that just do :set relativenumber ( we are now using ex commands, ex commands starts with a : )</p>
+<p>you can use :edit or :e for creating or editing file
+eg. :edit newFile.js will create a file if not exist in the current path or will go to edit the purticular file if exist
+you can do :w for writing the file :q for quiting the file or just :wq for write and quit</p>
+<p>also you can do global replacement in the document by using :%s/textThatShouldBeReplaced/newText</p>
+<p>now how can we move from normal to insert mode, most of the people will do ( i )
+but there are more</p>
+<p>i - insert mode ( it will put the cursor before the character you are in)
+a - around ( it will put the cursor after the character you are in)
+I (capital i ) for insertig at the start of line
+A - insert at the end of line
+these are used to go from normal mode to insert mode, where you can type like you do in a normal text editor&hellip;</p>
+<p>use % for going to end of line and ^ for going to start of line (where first character starts)
+0 for going to actual starting position or 0th column</p>
+<p>esc, control + c, control + [    &mdash; can be used to go to normal mode from insert mode</p>
+<p>there is a lot like this&hellip;
+some tips from me :
+you can remap the key binding as you want, but if you are a programmer and you are using different text editrors then it is not recommended&hellip;.
+the reason is, i am using vs code as my main text editor for all my works, i often use ide&rsquo;s&hellip;.
+so when i am using other editors or using the computer of someone else, it is really hard because in first
+i have remapped my keys in different way because some of them are not acceptable for me, like the esc key,
+are you kidding me, i can&rsquo;t even reach the esc key, so i remapped it into jj, so i just need to type jj to go to normal mode,
+now it is pretty much easy, but the problem will really happen when changing editor or computer because the remapping json file is in my computer or in the vs code and it is a bit time comsuming to set up or just add all those keybinding to other editors or ide&rsquo;s and it may be easy for vs code configuring but not for other ide&rsquo;s,
+it is sure that vim extension is available at almost everywhere, but the remapping is done in different ways in different application, this problem happended to me when i have used the android studio, vim is available there in the name of ideavim,
+but i dont know how to configure or remap the keys or else you need understand it in the way of vim, because i guess vim offerese key remapping commands so you just need to use some ex commands to do that, but on that time learning any of this is time comsuming,
+also when i use others computer i use jj all the time to go to normal mode, and then it will print to screen because vim is not installed on there computer and even if it is installed, i need to remap it, if the remapping is not needed, then i could have been installed vim and used on there computer.
+do you know how harder it is to use the arrow keys to move around if you are a vim user,</p>
+<p>so all of the things above mentioned can be avoided by simply using default configuration. and i am now using default configuration.</p>
+<p>using touch typing + vim + some practice you can become god in handling file and text.
+nobody will even get understand what you are doing, they will be amazed of yours speed.
+im on the way to become that god, just need to have some practive because i have changed on the default configuration in the last week,</p>
+<p>also vim is really good for touch typers&hellip;. because they don&rsquo;t like to leave from there home row like me&hellip;.☺</p>
+<p>![[Pasted image 20241203093949.png]]</p>
+<p>![[Pasted image 20241203084732.png]]</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="//localhost:1313/posts/second-blog/" class="button inline prev">
+        
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="//localhost:1313/posts/zshrc1/" class="button inline next">
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2024 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

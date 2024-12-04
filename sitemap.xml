@@ -2,14 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/blog/</loc>
+    <loc>//localhost:1313/posts/blog/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/posts/fourth-blog-4/</loc>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>//localhost:1313/posts/hello-hugo/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/posts/second-blog/</loc>
   </url><url>
-    <loc>/</loc>
+    <loc>//localhost:1313/posts/third-blog-3-vim/</loc>
+  </url><url>
+    <loc>//localhost:1313/posts/zshrc1/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+  </url><url>
+    <loc>//localhost:1313/</loc>
   </url>
 </urlset>

@@ -2,21 +2,226 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terminal</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>/posts/blog/</link>
+      <link>//localhost:1313/posts/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/posts/blog/</guid>
+      <guid>//localhost:1313/posts/blog/</guid>
       <description>Test 1 blog 67-11-28 17:05 test
-heyyyyyyyyyyyyy</description>
+!</description>
       <content>&lt;h1 id=&#34;test-1-blog&#34;&gt;Test 1 blog&lt;/h1&gt;
 &lt;p&gt;67-11-28 17:05 test&lt;/p&gt;
-&lt;p&gt;heyyyyyyyyyyyyy&lt;/p&gt;
+&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;//localhost:1313/images/Pasted%20image%2020241130141132.png&#34;&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/posts/fourth-blog-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/fourth-blog-4/</guid>
+      <description>Top Scret ![[Pasted image 20241203112136.png]] !youtube https://www.youtube.com/watch?v=UopJusRbfTI&amp;ab_channel=News1</description>
+      <content>&lt;p&gt;Top Scret
+![[Pasted image 20241203112136.png]]
+&lt;a href=&#34;https://www.youtube.com/watch?v=UopJusRbfTI&amp;ab_channel=News1&#34;&gt;!youtube&lt;/a&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=UopJusRbfTI&amp;ab_channel=News1&#34;&gt;https://www.youtube.com/watch?v=UopJusRbfTI&amp;ab_channel=News1&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/posts/hello-hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/hello-hugo/</guid>
+      <description>test asdf asdf asdf !</description>
+      <content>&lt;h1 id=&#34;test&#34;&gt;test&lt;/h1&gt;
+&lt;p&gt;asdf
+asdf
+asdf
+!&lt;img alt=&#34;Image Description&#34; src=&#34;//localhost:1313/images/Pasted%20image%2020241130144138.png&#34;&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/posts/second-blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/second-blog/</guid>
+      <description>after learn from NetworkChuck (https://www.youtube.com/watch?v=dnE7c0ELEH8&amp;t=838s) Day 2 config terminal and link with obsidian try to move images obsidian to hugo
+!</description>
+      <content>&lt;p&gt;after learn from NetworkChuck (&lt;a href=&#34;https://www.youtube.com/watch?v=dnE7c0ELEH8&amp;t=838s&#34;&gt;https://www.youtube.com/watch?v=dnE7c0ELEH8&amp;t=838s&lt;/a&gt;)
+Day 2 config terminal and link with obsidian
+try to move images obsidian to hugo&lt;/p&gt;
+&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;//localhost:1313/images/Pasted%20image%2020241130113719.png&#34;&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/posts/third-blog-3-vim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/third-blog-3-vim/</guid>
+      <description>ทดสอบภาษาไทย ๐67-12-03 08:48
+vim vab - selects content within parenthesis () along with it vib - selects only the content within parenthesis vaB - for {} vib - for {} % will help to jump between matching brackets, tags for that matter anything D - deletes from cursor position to the end of the line Y - copys till the end of the line xp - really helpful to swaps letter like , bnigo &amp;ndash;&amp;gt; bingo gj - normally vim skips the line if its wrapped.</description>
+      <content>&lt;p&gt;ทดสอบภาษาไทย
+๐67-12-03 08:48&lt;/p&gt;
+&lt;h1 id=&#34;vim&#34;&gt;vim&lt;/h1&gt;
+&lt;p&gt;vab - selects content within parenthesis () along with it
+vib - selects only the content within parenthesis
+vaB - for {}
+vib - for {}
+% will help to jump between matching brackets, tags for that matter anything
+D - deletes from cursor position to the end of the line
+Y - copys till the end of the line
+xp - really helpful to swaps letter like , bnigo &amp;ndash;&amp;gt; bingo
+gj - normally vim skips the line if its wrapped. gj helps to go down for that
+gv - selects the previously selected part in visual mode.
+gf - jumps to the file when on the file path.&lt;/p&gt;
+&lt;p&gt;For Web developers
+cit will jump into the tag.
+vit will juno into the tag in visual mode&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;in vim there is actually a lot of things you can do&lt;/p&gt;
+&lt;p&gt;diw - delete inside word (delete a word)
+daw - delete around word(deletes a word including the whitespace)
+you can also use &amp;lsquo;W&amp;rsquo; it will also do the same but it will consider a word as a collection of characters surrounded by whitespace
+di{ - delete the content inside {}
+di( - delete the content inside ()
+da{ - delete inside {} including the {}
+like this there are more (di&amp;quot;, di&amp;rsquo;..etc)
+instead of i (inside) or a (around) you can also use s ( surrounding )
+it will delete the surrounding characters you are mentioning
+most of these is useful for programmers&lt;/p&gt;
+&lt;p&gt;instead of d you can use c ( c stands for change )
+it will go to insert mode after the operation is done, but d will stay in normal mode&lt;/p&gt;
+&lt;p&gt;use y instead of d and c, then you are doing yanking (copy) all the other are same
+also you can use v (it is for visual mode - for selecting text)&lt;/p&gt;
+&lt;p&gt;for line search you can use f and F, it will find a purticular character in a line and then you can use ; and , to move forward and backword through that search character if there is more, f is for searching after and F is for searching behind
+also there is t and T - f stands for find, and t stands for till it will also find but wont go to that character, instead a character behind the actuat character you are mentioning, it will make sense when you do operations like delete, for example you can do dta ( it will delete the characters from where you are till the character &amp;lsquo;a&amp;rsquo; or delete till character &amp;lsquo;a&amp;rsquo;) if you use f then the character a will also be deleted.&lt;/p&gt;
+&lt;p&gt;instead of line you can search in entire document using /searchword and ?searchword (/ is for searching forward and ? is for backword)
+then you can use n to move throught that search forward and N for backword
+next time if you want to search the same keyword or searchword just press / and enter&lt;/p&gt;
+&lt;p&gt;for the basic movement you can use j (down), k (up), l (right), h (left), all the keys are available in home row&lt;/p&gt;
+&lt;p&gt;then moving faster using
+w - word -&amp;gt; word -&amp;gt; word
+e - end of each word
+b - move word backword or beginning&lt;/p&gt;
+&lt;p&gt;you can also use numbers, it can be considers as a multiplication,
+if you do 2j it will jumb two words down (nj , where n is a number)
+this is not only possible with j k l h , but also with almost every command i have told earlier
+for example i need to delete two  word then i can do d2w..etc&lt;/p&gt;
+&lt;p&gt;there is also combination of commands like dd, yy, cc&amp;hellip;etc&lt;/p&gt;
+&lt;p&gt;dd will delete a line
+yy will yank(copy) a line
+cc will delete a line then go to insert mode ( while d stay in normal mode)
+this can also be combined with number like 2dd ( delete two line or d2d&amp;hellip;etc)&lt;/p&gt;
+&lt;p&gt;for doing number combined operations it is better to do set the numbering to relative rather than normal numbering,
+don&amp;rsquo;t get what i said, right? just look at the video, he is using relative numbering rather that continueous,
+for that just do :set relativenumber ( we are now using ex commands, ex commands starts with a : )&lt;/p&gt;
+&lt;p&gt;you can use :edit or :e for creating or editing file
+eg. :edit newFile.js will create a file if not exist in the current path or will go to edit the purticular file if exist
+you can do :w for writing the file :q for quiting the file or just :wq for write and quit&lt;/p&gt;
+&lt;p&gt;also you can do global replacement in the document by using :%s/textThatShouldBeReplaced/newText&lt;/p&gt;
+&lt;p&gt;now how can we move from normal to insert mode, most of the people will do ( i )
+but there are more&lt;/p&gt;
+&lt;p&gt;i - insert mode ( it will put the cursor before the character you are in)
+a - around ( it will put the cursor after the character you are in)
+I (capital i ) for insertig at the start of line
+A - insert at the end of line
+these are used to go from normal mode to insert mode, where you can type like you do in a normal text editor&amp;hellip;&lt;/p&gt;
+&lt;p&gt;use % for going to end of line and ^ for going to start of line (where first character starts)
+0 for going to actual starting position or 0th column&lt;/p&gt;
+&lt;p&gt;esc, control + c, control + [    &amp;mdash; can be used to go to normal mode from insert mode&lt;/p&gt;
+&lt;p&gt;there is a lot like this&amp;hellip;
+some tips from me :
+you can remap the key binding as you want, but if you are a programmer and you are using different text editrors then it is not recommended&amp;hellip;.
+the reason is, i am using vs code as my main text editor for all my works, i often use ide&amp;rsquo;s&amp;hellip;.
+so when i am using other editors or using the computer of someone else, it is really hard because in first
+i have remapped my keys in different way because some of them are not acceptable for me, like the esc key,
+are you kidding me, i can&amp;rsquo;t even reach the esc key, so i remapped it into jj, so i just need to type jj to go to normal mode,
+now it is pretty much easy, but the problem will really happen when changing editor or computer because the remapping json file is in my computer or in the vs code and it is a bit time comsuming to set up or just add all those keybinding to other editors or ide&amp;rsquo;s and it may be easy for vs code configuring but not for other ide&amp;rsquo;s,
+it is sure that vim extension is available at almost everywhere, but the remapping is done in different ways in different application, this problem happended to me when i have used the android studio, vim is available there in the name of ideavim,
+but i dont know how to configure or remap the keys or else you need understand it in the way of vim, because i guess vim offerese key remapping commands so you just need to use some ex commands to do that, but on that time learning any of this is time comsuming,
+also when i use others computer i use jj all the time to go to normal mode, and then it will print to screen because vim is not installed on there computer and even if it is installed, i need to remap it, if the remapping is not needed, then i could have been installed vim and used on there computer.
+do you know how harder it is to use the arrow keys to move around if you are a vim user,&lt;/p&gt;
+&lt;p&gt;so all of the things above mentioned can be avoided by simply using default configuration. and i am now using default configuration.&lt;/p&gt;
+&lt;p&gt;using touch typing + vim + some practice you can become god in handling file and text.
+nobody will even get understand what you are doing, they will be amazed of yours speed.
+im on the way to become that god, just need to have some practive because i have changed on the default configuration in the last week,&lt;/p&gt;
+&lt;p&gt;also vim is really good for touch typers&amp;hellip;. because they don&amp;rsquo;t like to leave from there home row like me&amp;hellip;.☺&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241203093949.png]]&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20241203084732.png]]&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/posts/zshrc1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/zshrc1/</guid>
+      <description>aek = https://gitlab.com/dwt1/shell-color-scripts https://gitlab.com/dwt1/dotfiles colorscript random alias q=&amp;ldquo;nvim&amp;rdquo; alias vim=&amp;ldquo;nvim&amp;rdquo;
+rr alias rr=&amp;lsquo;curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash&amp;rsquo;
+Changing &amp;ldquo;ls&amp;rdquo; to &amp;ldquo;eza&amp;rdquo; alias ls=&amp;lsquo;eza -al &amp;ndash;color=always &amp;ndash;group-directories-first&amp;rsquo; # my preferred listing alias la=&amp;lsquo;eza -a &amp;ndash;color=always &amp;ndash;group-directories-first&amp;rsquo; # all files and dirs alias ll=&amp;lsquo;eza -l &amp;ndash;color=always &amp;ndash;group-directories-first&amp;rsquo; # long format alias lt=&amp;lsquo;eza -aT &amp;ndash;color=always &amp;ndash;group-directories-first&amp;rsquo; # tree listing alias l.=&amp;lsquo;eza -al &amp;ndash;color=always &amp;ndash;group-directories-first ../&amp;rsquo; # ls on the PARENT directory alias l.</description>
+      <content>&lt;h1 id=&#34;aek--httpsgitlabcomdwt1shell-color-scripts&#34;&gt;aek = &lt;a href=&#34;https://gitlab.com/dwt1/shell-color-scripts&#34;&gt;https://gitlab.com/dwt1/shell-color-scripts&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;httpsgitlabcomdwt1dotfiles&#34;&gt;&lt;a href=&#34;https://gitlab.com/dwt1/dotfiles&#34;&gt;https://gitlab.com/dwt1/dotfiles&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;colorscript random
+alias q=&amp;ldquo;nvim&amp;rdquo;
+alias vim=&amp;ldquo;nvim&amp;rdquo;&lt;/p&gt;
+&lt;h1 id=&#34;rr&#34;&gt;rr&lt;/h1&gt;
+&lt;p&gt;alias rr=&amp;lsquo;curl -s -L &lt;a href=&#34;https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh&#34;&gt;https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh&lt;/a&gt; | bash&amp;rsquo;&lt;/p&gt;
+&lt;h1 id=&#34;changing-ls-to-eza&#34;&gt;Changing &amp;ldquo;ls&amp;rdquo; to &amp;ldquo;eza&amp;rdquo;&lt;/h1&gt;
+&lt;p&gt;alias ls=&amp;lsquo;eza -al &amp;ndash;color=always &amp;ndash;group-directories-first&amp;rsquo; # my preferred listing
+alias la=&amp;lsquo;eza -a &amp;ndash;color=always &amp;ndash;group-directories-first&amp;rsquo;  # all files and dirs
+alias ll=&amp;lsquo;eza -l &amp;ndash;color=always &amp;ndash;group-directories-first&amp;rsquo;  # long format
+alias lt=&amp;lsquo;eza -aT &amp;ndash;color=always &amp;ndash;group-directories-first&amp;rsquo; # tree listing
+alias l.=&amp;lsquo;eza -al &amp;ndash;color=always &amp;ndash;group-directories-first ../&amp;rsquo; # ls on the PARENT directory
+alias l..=&amp;lsquo;eza -al &amp;ndash;color=always &amp;ndash;group-directories-first ../../&amp;rsquo; # ls on directory 2 levels up
+alias l&amp;hellip;=&amp;lsquo;eza -al &amp;ndash;color=always &amp;ndash;group-directories-first ../../../&amp;rsquo; # ls on directory 3 levels up&lt;/p&gt;
+&lt;h1 id=&#34;adding-flags&#34;&gt;adding flags&lt;/h1&gt;
+&lt;p&gt;alias df=&amp;lsquo;df -h&amp;rsquo;               # human-readable sizes
+alias free=&amp;lsquo;free -m&amp;rsquo;           # show sizes in MB
+alias grep=&amp;lsquo;grep &amp;ndash;color=auto&amp;rsquo; # colorize output (good for log files)&lt;/p&gt;
+&lt;h1 id=&#34;the-terminal-rickroll&#34;&gt;the terminal rickroll&lt;/h1&gt;
+&lt;p&gt;alias rr=&amp;lsquo;curl -s -L &lt;a href=&#34;https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh&#34;&gt;https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh&lt;/a&gt; | bash&amp;rsquo;&lt;/p&gt;
+&lt;h1 id=&#34;adding-flags-1&#34;&gt;adding flags&lt;/h1&gt;
+&lt;p&gt;alias df=&amp;lsquo;df -h&amp;rsquo;               # human-readable sizes
+alias free=&amp;lsquo;free -m&amp;rsquo;           # show sizes in MB
+alias grep=&amp;lsquo;grep &amp;ndash;color=auto&amp;rsquo; # colorize output (good for log files)&lt;/p&gt;
+&lt;h1 id=&#34;ps&#34;&gt;ps&lt;/h1&gt;
+&lt;p&gt;alias psa=&amp;ldquo;ps auxf&amp;rdquo;
+alias psgrep=&amp;ldquo;ps aux | grep -v grep | grep -i -e VSZ -e&amp;rdquo;
+alias psmem=&amp;lsquo;ps auxf | sort -nr -k 4&amp;rsquo;
+alias pscpu=&amp;lsquo;ps auxf | sort -nr -k 3&amp;rsquo;&lt;/p&gt;
+&lt;h1 id=&#34;play-mp3&#34;&gt;Play mp3&lt;/h1&gt;
+&lt;p&gt;alias playmp3=&amp;lsquo;deadbeef *.mp3&amp;rsquo;&lt;/p&gt;
+&lt;h1 id=&#34;play-vdo&#34;&gt;Play VDO&lt;/h1&gt;
+&lt;p&gt;alias playavi=&amp;lsquo;vlc *.avi&amp;rsquo;
+alias playmov=&amp;lsquo;vlc *.mov&amp;rsquo;
+alias playmp4=&amp;lsquo;vlc *.mp4&amp;rsquo;&lt;/p&gt;
+&lt;h1 id=&#34;yt-dlp&#34;&gt;yt-dlp&lt;/h1&gt;
+&lt;p&gt;alias  yt-aac=&amp;ldquo;yt-dlp &amp;ndash;extract-audio &amp;ndash;audio-format aac &amp;quot;
+alias  yt-best=&amp;ldquo;yt-dlp &amp;ndash;extract-audio &amp;ndash;audio-format best &amp;quot;
+alias  yt-flac=&amp;ldquo;yt-dlp &amp;ndash;extract-audio &amp;ndash;audio-format flac &amp;quot;
+alias  yt-m4a=&amp;ldquo;yt-dlp &amp;ndash;extract-audio &amp;ndash;audio-format m4a &amp;quot;
+alias  yt-mp3=&amp;ldquo;yt-dlp &amp;ndash;extract-audio &amp;ndash;audio-format mp3 &amp;quot;
+alias  yt-opus=&amp;ldquo;yt-dlp &amp;ndash;extract-audio &amp;ndash;audio-format opus &amp;quot;
+alias  yt-vorbis=&amp;ldquo;yt-dlp &amp;ndash;extract-audio &amp;ndash;audio-format vorbis &amp;quot;
+alias  yt-wave=&amp;ldquo;yt-dlp &amp;ndash;extract-audio &amp;ndash;audio-format wav &amp;quot;
+alias  yt-vbest=&amp;ldquo;yt-dlp -f bestvideo+bestaudio  &amp;quot;&lt;/p&gt;
+&lt;h1 id=&#34;switch-shells&#34;&gt;Switch shells&lt;/h1&gt;
+&lt;p&gt;alias tobash=&amp;ldquo;sudo chsh $USER -s /bin/bash &amp;amp;&amp;amp; echo &amp;lsquo;Now log out.&amp;rsquo; &amp;quot;
+alias tozsh=&amp;ldquo;sudo chsh $USER -s /bin/zsh &amp;amp;&amp;amp; echo &amp;lsquo;Now log out.&amp;rsquo; &amp;quot;
+alias tofish=&amp;ldquo;sudo chsh $USER -s /bin/fish &amp;amp;&amp;amp; echo &amp;lsquo;Now log out.&amp;rsquo; &amp;quot;&lt;/p&gt;
 </content>
     </item>
     
